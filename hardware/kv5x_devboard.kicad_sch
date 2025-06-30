@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 50.8 127)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa965fd5-8980-46ce-9e98-60a9f6424b8e")
+		(property "Sheetname" "USB interface"
+			(at 50.8 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/usb_interface.kicad_sch"
+			(at 50.8 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kv5x_devboard"
+				(path "/0d451eb2-75be-4a38-9e93-e62b45068f1d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 50.8)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
@@ -174,7 +216,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 88.9)
+		(at 101.6 127)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +232,7 @@
 		)
 		(uuid "eede1625-c09f-42a9-939c-9384ac0707f8")
 		(property "Sheetname" "IMU"
-			(at 152.4 88.1884 0)
+			(at 101.6 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "./sch/imu.kicad_sch"
-			(at 152.4 114.8846 0)
+			(at 101.6 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
