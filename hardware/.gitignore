@@ -1,2 +1,22 @@
 docs/
 kv5x_devboard-backups/
+
+# KiCad backup files
+*.kicad_pcb-bak
+*.sch-bak
+*.bak
+*-save.pro
+*-save.kicad_pcb
+_autosave-*
+
+# KiCad temporary/cache files
+fp-info-cache
+*.net
+*.dsn
+*.ses
+*.tmp
+*.lck
+
+# Editor backup files
+*~
+.*.swp

@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "100 LEAD LQFP")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "13b4f2fe-9500-49d5-a3a1-2afb97cba27b")

@@ -2,9 +2,261 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 0d451eb2-75be-4a38-9e93-e62b45068f1d)
+	(uuid "0d451eb2-75be-4a38-9e93-e62b45068f1d")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 50.8 88.9)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4808f72d-7c09-4353-be0e-2a585205f61a")
+		(property "Sheetname" "Buttons and switches"
+			(at 50.8 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/btn_sw.kicad_sch"
+			(at 50.8 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kv5x_devboard"
+				(path "/0d451eb2-75be-4a38-9e93-e62b45068f1d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54f9dc71-55b8-4c4f-b83b-97b0f0000a7a")
+		(property "Sheetname" "Power"
+			(at 152.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/power.kicad_sch"
+			(at 152.4 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kv5x_devboard"
+				(path "/0d451eb2-75be-4a38-9e93-e62b45068f1d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab89c3e5-a3fe-4b42-97a1-46890f7b9169")
+		(property "Sheetname" "Microcontroller"
+			(at 50.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/mcu.kicad_sch"
+			(at 50.8 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kv5x_devboard"
+				(path "/0d451eb2-75be-4a38-9e93-e62b45068f1d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c55c04ab-b0f5-4e99-87ee-1de2c7110246")
+		(property "Sheetname" "JTAG, SWD interface"
+			(at 101.6 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/jtag_swd.kicad_sch"
+			(at 101.6 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kv5x_devboard"
+				(path "/0d451eb2-75be-4a38-9e93-e62b45068f1d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 88.9)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eede1625-c09f-42a9-939c-9384ac0707f8")
+		(property "Sheetname" "IMU"
+			(at 152.4 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/imu.kicad_sch"
+			(at 152.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kv5x_devboard"
+				(path "/0d451eb2-75be-4a38-9e93-e62b45068f1d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 88.9)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f391927a-b382-4adf-90c2-6e71baa1cb8e")
+		(property "Sheetname" "General Purpose IO"
+			(at 101.6 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./sch/gpio.kicad_sch"
+			(at 101.6 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kv5x_devboard"
+				(path "/0d451eb2-75be-4a38-9e93-e62b45068f1d"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
