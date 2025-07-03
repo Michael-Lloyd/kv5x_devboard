@@ -1,11 +1,11 @@
-25617635312485065
+25619387071429664
 0_kv5x_devboard
-MK20DX128VFM5
-HVQFN32 (SOT617-17)
-Integrated Circuit
+MK20DX128VLF5
+
+MK20DX128VLF5 
 0
-33
-33
+48
+48
 0_kv5x_devboard
 MKV56F1M0VLL24
 100 LEAD LQFP
@@ -13,6 +13,13 @@ Integrated Circuit
 0
 100
 100
+0_kv5x_devboard
+TestPoint_Pad_D0.5mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

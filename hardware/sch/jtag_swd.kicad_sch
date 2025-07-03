@@ -1119,6 +1119,72 @@
 			)
 		)
 	)
+	(global_label "K20_SWD_EN_B"
+		(shape output)
+		(at 115.57 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "278e15fd-78a2-4ef9-9c5d-b1d8af25d0a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.8274 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K20_JTAG_TDI"
+		(shape input)
+		(at 115.57 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f0ce30c-4b00-419f-b602-0c541ebf05d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.3156 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K20_JTAG_TCLK"
+		(shape input)
+		(at 115.57 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ac6dc73-f5c5-4e9e-a482-ef9214336daf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.0089 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KV5x_TDI"
 		(shape input)
 		(at 101.6 85.09 0)
@@ -1141,6 +1207,28 @@
 			)
 		)
 	)
+	(global_label "K20_JTAG_TDO"
+		(shape output)
+		(at 115.57 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cdecba7-c465-4aa2-8e89-73a47b463be2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.0413 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KV5x_SWO{slash}TDO"
 		(shape output)
 		(at 101.6 82.55 0)
@@ -1154,6 +1242,28 @@
 		(uuid "d3168e62-0c3d-48d3-a82b-035dc0318cf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.039 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K20_JTAG_TMS"
+		(shape bidirectional)
+		(at 115.57 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9403f94-3075-4245-b468-bd6a5b70b720")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.213 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
